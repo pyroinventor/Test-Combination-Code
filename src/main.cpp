@@ -84,7 +84,7 @@ void loop()
         {
             motor.enable(true);
             motor.setDirection(true);
-            motor.setSpeed(50); // 50% speed
+            motor.setSpeed(10); // 50% speed
             currentState = MOVING;
             stateStartTime = millis();
         }
